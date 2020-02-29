@@ -12,11 +12,7 @@
     "react",
     "pagination"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/erickbandinelli/pagination-react.git"
-  },
-  "author": "Erick de Oliveira - KikitosDevs <!-- erickbandinellioliver@gmail.com  -->",
+  "author": "Erick de Oliveira - KikitosDevs <!-- kikitosdevs@gmail.com  -->",
   "license": "MIT",
   "dependencies": {
     "styled-components": "^5.0.1"

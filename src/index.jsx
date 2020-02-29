@@ -2,10 +2,10 @@ import React from 'react';
 
 import PaginateStyle from './style';
 
-const Pagination = ({ dragonsPerPage, currentPage, totalDragons, paginate }) => {
+const Pagination = ({ listPerPage, currentPage, totalList, paginate }) => {
     const pageNumbers = [];
 
-    for(let i = 1; i <= Math.ceil(totalDragons / dragonsPerPage); i++) {
+    for(let i = 1; i <= Math.ceil(totalList / listPerPage); i++) {
         pageNumbers.push(i);
     }
 
