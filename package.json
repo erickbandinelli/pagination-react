@@ -4,7 +4,7 @@
   "description": "This is a paging component in react.",
   "main": ".src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "npm publish"
   },
   "keywords": [
     "npm",
@@ -14,7 +14,14 @@
   ],
   "author": "Erick de Oliveira - KikitosDevs <!-- kikitosdevs@gmail.com  -->",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickbandinelli/pagination-react.git"
+  },
   "dependencies": {
     "styled-components": "^5.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@kikitosdev"
   }
 }
