@@ -1,0 +1,24 @@
+{
+  "name": "pagination-react",
+  "version": "1.0.0",
+  "description": "This is a paging component in react.",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "paginagion-react",
+    "react",
+    "pagination"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickbandinelli/pagination-react.git"
+  },
+  "author": "Erick de Oliveira - KikitosDevs <!-- erickbandinellioliver@gmail.com  -->",
+  "license": "MIT",
+  "dependencies": {
+    "styled-components": "^5.0.1"
+  }
+}
